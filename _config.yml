@@ -81,7 +81,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a Linux fan."
   location         : "Italy"
-  email            : "aasonykk at google mail"
+  email            : "aasonykk+blog@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -242,6 +242,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
 
