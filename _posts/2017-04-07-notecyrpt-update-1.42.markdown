@@ -6,7 +6,7 @@ tags:
   - android
 ---
 
-NoteCrypt has been updated to version 1.42.
+NoteCrypt has been updated to version 1.42!
 
 Changelog:
   * Fixed issue that prevented old Android versions (4.0-4.2) to create/access notes
