@@ -1,0 +1,48 @@
+---
+title:  "GSOC 2017 Keysign wrap up"
+date:   2017-08-13 22:40:00 +0100
+category: GNOME
+tags:
+  - GNOME
+---
+
+## What was the project about
+
+The transfer of the keys on GNOME Keysign was limited to the LAN only. This limitation can be a problem when e.g. one user does not have access to a WIFI/Ethernet connection or when the users are connected to an isolated network (like a guest WIFI or an University Intranet).
+
+The goal was to further facilitate the OpenPGP keys signing process on GNOME Keysign. This was achieved by adding the ability to send the keys using Bluetooth and Magic Wormhole. The first allows two near PCs to communicate even if there is no LAN/WAN connectivity; The second allows the communication when two PCs are in a LAN (or isolated LAN) or located remotely.
+
+## Magic Wormhole
+
+Magic Wormhole implementation is complete.
+
+Now in order to use this new transfer method users just have to press the new Internet switch button.
+Security and secrecy of transferred keys are guaranteed by Wormhole itself thanks to its end-to-end encryption.
+
+In addition to Wormhole, an extra page has been added to inform users about the sending result.
+
+The code is now in a pull request [here](https://github.com/gnome-keysign/gnome-keysign/pull/15).
+
+In addition to a code review, we are waiting until Debian updates the repository version of Magic Wormhole to the required one for keysign (version >= 0.10.2) before we can merge this branch.
+
+## Bluetooth
+
+Bluetooth implementation is complete.
+
+This additional transfer method is automatically active if a working Bluetooth adapter is available.
+The receiver, in order to use Bluetooth, will need to scan the sender's QR code.
+
+As a discovery mechanism the MAC address has been used, in this way the receiver can connect directly to the sender without starting a slow nearby discovery search.
+
+For allow faster "one time" connections, pairing is not mandatory. Without pairing the transfer happens in clear text, so to guarantee that the downloaded key has not been tampered we use an HMAC.
+
+The code is now in a pull request [here](https://github.com/gnome-keysign/gnome-keysign/pull/18).
+
+Some code review and more beta testing are required in order to merge this pull request.
+
+## Thanks
+
+Even if this GSoC 2017 is over I'll definitely continue to contribute in this amazing community.
+
+Thank you Tobias Müller for all the advice that you gave me in the past months, thank you Google for this beautiful opportunity and last but not least a big thank you to the whole GNOME community!
+
