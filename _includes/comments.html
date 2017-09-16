@@ -65,11 +65,16 @@
             <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
             <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
           </fieldset>
+          <fieldset>
+            <input type="hidden" name="options[reCaptcha][siteKey]" value="6LfW7TAUAAAAANs5htn_FtzSvckkaKXorGkoFlFI">
+            <input type="hidden" name="options[reCaptcha][secret]" value="Sopm31SbC0xi0Dimm+MndK0etqVZoXborzn51Sz7qqWRpiUr5wmXdpJfNApjxKYAk5PpbgNcv5mokPUXJIl98nXVAjybOWc8Z8pxV396F7+N+rRoTdMFXyLX1CrNiJB6dpq53lB/5apDU2Uxk7za8/C4l9CS3Lg5Wd2Ky/OicmU=">
+          </fieldset>
           <!-- Start comment form alert messaging -->
           <p class="hidden js-notice">
             <strong class="js-notice-text"></strong>
           </p>
           <!-- End comment form alert messaging -->
+          <div class="g-recaptcha" data-sitekey="6LfW7TAUAAAAANs5htn_FtzSvckkaKXorGkoFlFI"></div>
           <fieldset>
             <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
           </fieldset>
@@ -80,4 +85,5 @@
   {% when "custom" %}
     <section id="custom-comments"></section>
   {% endcase %}
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </div>

@@ -44,6 +44,10 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  reCaptcha:
+    enabled: true
+    siteKey: "6LfW7TAUAAAAANs5htn_FtzSvckkaKXorGkoFlFI"
+    secret: "Sopm31SbC0xi0Dimm+MndK0etqVZoXborzn51Sz7qqWRpiUr5wmXdpJfNApjxKYAk5PpbgNcv5mokPUXJIl98nXVAjybOWc8Z8pxV396F7+N+rRoTdMFXyLX1CrNiJB6dpq53lB/5apDU2Uxk7za8/C4l9CS3Lg5Wd2Ky/OicmU="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
