@@ -1,0 +1,11 @@
+_id: 32a48360-ffa1-11e8-81de-335e33f66198
+message: >-
+  The integration between USBGuard and the settings should be done in a separate
+  gnome-settings-daemon helper. GNOME-Shell should only be used to display a
+  menu, it shouldn't be integrating with USBGuard directly. See similar
+  integration in Thunderbolt, or power management, support.
+name: Bastien
+email: f6fb75c0fdf12f4221e4925468ee7c3d
+url: 'https://hadess.net'
+hidden: ''
+date: '2018-12-14T13:07:24.471Z'
