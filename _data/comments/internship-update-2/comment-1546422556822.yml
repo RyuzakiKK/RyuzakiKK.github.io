@@ -1,0 +1,11 @@
+_id: aaf399b0-0e73-11e9-ab18-81adaacd1843
+message: >-
+  @Marcus probably this should be an exception to the main rule. Maybe a check
+  about a working touchscreen should be already enough to handle it. In this way
+  if we notice that there are touchscreen capabilities then we don't
+  automatically allow a keyboard.
+name: Ludovico
+email: 0dd07aa6a104da5d37b5a0388b5a0ab7
+url: ''
+hidden: ''
+date: '2019-01-02T09:49:16.821Z'
