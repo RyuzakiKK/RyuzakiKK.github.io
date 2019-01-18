@@ -1,0 +1,7 @@
+_id: ef4e98f0-1b50-11e9-ba78-3d3ffff9172b
+message: "Great initiatives, thank you for the contributions to GNOME\r\n\r\nFor the keyboard re-connect notification, are you adding a gsettings / dconf setting so it can be turned off? In some use-cases keyboard reconnection happens very often:  many monitors have a usb hub embedded (Dell Ultrasharp line for instance) meant to connect keyboard/mouse and share them (like a mini KVM) between two computers,  e.g. laptop and desktop. So the constant notification could get annoying for this type of use"
+name: ar
+email: a3fe2eb898c3411c41e8ff204dc48960
+url: ''
+hidden: ''
+date: '2019-01-18T18:43:24.473Z'
