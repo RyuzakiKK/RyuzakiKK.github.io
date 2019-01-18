@@ -1,0 +1,7 @@
+_id: d8ebfc80-1b62-11e9-ba78-3d3ffff9172b
+message: "@ar This new keyboard notification is shown only if the screen is locked and you plug a keyboard.\r\n\r\nIf I correctly understood your use case, you are saying that it's common to plug an external monitor and that some of them also feature a USB hub (with a potential keyboard plugged).\r\nBut given the fact that the notification is only when you plug a keyboard while the session is locked, do you think that a gsettings entry may still be useful?"
+name: Ludovico
+email: 0dd07aa6a104da5d37b5a0388b5a0ab7
+url: ''
+hidden: ''
+date: '2019-01-18T20:51:37.696Z'
