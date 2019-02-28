@@ -1,0 +1,7 @@
+_id: 311faae0-3b67-11e9-97f7-73cce500929f
+message: "@Jens for the general USB protection (the first part of this project where new USB devices get rejected if the lock screen is active) we use the identification mechanism offered by USBGuard. That means that we use the vendor id, the product id, the device name and the device serial.\r\n\r\nFor the keyboard protection we currently just use the vendor id and the product id (because if we use the hwdb we are unable to fit also the serial for example, but this may change if we stop using hwdb).\r\n\r\nAnyway keep in mind that with USB devices is impossible to reliably identify them because when a new device is plugged in we can't verify if it is telling us the truth or not.\r\nAlso the serial value is not even always useful. For example in my USB Keyboard the serial is just the keyboard model name, nothing remotely unique.\r\n\r\nSo to answer your question, we can protect users against generic attacks but if, for example, you know the specific vendor and model that your victim is using you'll still be able to craft a malicious USB device that mimics the already authorized device.\r\n\r\nThe situation will hopefully improve with the recently announced new cryptographic authentication offered with USB Type-C."
+name: Ludovico
+email: 0dd07aa6a104da5d37b5a0388b5a0ab7
+url: ''
+hidden: ''
+date: '2019-02-28T14:43:20.915Z'
