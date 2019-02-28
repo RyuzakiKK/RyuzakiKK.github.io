@@ -1,0 +1,11 @@
+_id: c77e0d60-3220-11e9-9a72-dbc555e3e3f2
+message: >-
+  Unfortunatelly touch support is not yet exposed to screen reader users and
+  other people relying on gnome accessibility support via at-spi, orca and
+  others. Thus it would be awesome if you can detect if gnome accessibility is
+  enabled and discard touch screen keyboard check based on that.
+name: pvagner
+email: 95b10d01b4fca5cc1f47acba1b39d63c
+url: ''
+hidden: ''
+date: '2019-02-16T19:26:38.336Z'
