@@ -1,0 +1,14 @@
+_id: 20b7ac60-3b63-11e9-97f7-73cce500929f
+message: >-
+  To help me understand the level of protection offered by this: How do
+  keyboards get identified? Would it be enough for a malicious device to have
+  the same vendor ID and product ID as a keyboard that's trusted by the user?
+  Since AFAIK these IDs are quite easy to fake, that would mean that this
+  feature couldn't protect against a targeted attack (where the attacker has
+  enough information about the victim). But of course it would still protect
+  against other kinds of attacks.
+name: Jens
+email: f3413b61a098eef3598c057af8e720f9
+url: ''
+hidden: ''
+date: '2019-02-28T14:14:15.341Z'
